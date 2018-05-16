@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DonaVilmaGame.Properties
+namespace WindowsFormsApplication1.Properties
 {
 
 
