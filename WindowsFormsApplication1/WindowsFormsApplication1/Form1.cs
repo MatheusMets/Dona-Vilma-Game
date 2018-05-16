@@ -15,6 +15,10 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+
+            richLog.AppendText("START!");
+            richLog.AppendText("\nO jogo já se iniciou. É a sua vez!");
+            richLog.AppendText("\nEsperando o usuário jogar...");
         }
     }
 }
