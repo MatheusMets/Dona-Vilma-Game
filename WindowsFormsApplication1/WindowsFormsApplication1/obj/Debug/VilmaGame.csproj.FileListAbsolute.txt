@@ -1,1 +1,10 @@
 C:\Users\mathe\Desktop\TicTacToe\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\VilmaGame.csprojResolveAssemblyReference.cache
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DonaVilmaGame.Form1.resources
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\VilmaGame.csproj.GenerateResource.Cache
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\DonaVilmaGame.exe.config
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\DonaVilmaGame.exe
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\DonaVilmaGame.pdb
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DonaVilmaGame.Properties.Resources.resources
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DonaVilmaGame.exe
+C:\Users\Douglas Tertuliano\Desktop\7º Semestre\Inteligência Artificial\ticTacToe_IA\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DonaVilmaGame.pdb

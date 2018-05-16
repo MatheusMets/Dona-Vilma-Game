@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace DonaVilmaGame
 {
     partial class Form1
     {
