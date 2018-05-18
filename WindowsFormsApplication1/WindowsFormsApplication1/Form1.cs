@@ -20,5 +20,13 @@ namespace WindowsFormsApplication1
             richLog.AppendText("\nO jogo já se iniciou. É a sua vez!");
             richLog.AppendText("\nEsperando o usuário jogar...");
         }
+
+        private void btnRestart_Click(object sender, EventArgs e)
+        {
+            richLog.Clear();
+            richLog.AppendText("START!");
+            richLog.AppendText("\nO jogo já se iniciou. É a sua vez!");
+            richLog.AppendText("\nEsperando o usuário jogar...");
+        }
     }
 }
