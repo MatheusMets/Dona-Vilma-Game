@@ -1,0 +1,9 @@
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\TicTacToeIA.csprojResolveAssemblyReference.cache
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\TicTacToeGeneral.Form1.resources
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\TicTacToeIA.csproj.GenerateResource.Cache
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb

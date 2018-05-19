@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace TicTacToeGeneral
 {
     public partial class Form1 : Form
     {
@@ -19,6 +19,9 @@ namespace WindowsFormsApplication1
             richLog.AppendText("START!");
             richLog.AppendText("\nO jogo já se iniciou. É a sua vez!");
             richLog.AppendText("\nEsperando o usuário jogar...");
+
+
+
         }
 
         private void btnRestart_Click(object sender, EventArgs e)

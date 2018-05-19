@@ -7,3 +7,6 @@ C:\Users\mathe\Desktop\TicTacToe\Dona-Vilma-Game\WindowsFormsApplication1\Window
 C:\Users\mathe\Desktop\TicTacToe\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\VilmaGame.csproj.GenerateResource.Cache
 C:\Users\mathe\Desktop\TicTacToe\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\mathe\Desktop\TicTacToe\Dona-Vilma-Game\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\mathe\Desktop\My TicTacToe\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
