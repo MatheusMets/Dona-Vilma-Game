@@ -7,7 +7,7 @@ namespace TicTacToeGeneral
     public class VictoryConditionEnum
     {
 
-        public readonly List<int[]> ConditionList;
+        public List<int[]> ConditionList;
 
         public readonly int[] Vertical1 = { 1, 4, 7 };
         public readonly int[] Vertical2 = { 2, 5, 8 };
@@ -22,6 +22,8 @@ namespace TicTacToeGeneral
 
         public VictoryConditionEnum()
         {
+            ConditionList = new List<int[]>();
+
             ConditionList.Add(Vertical1);
             ConditionList.Add(Vertical2);
             ConditionList.Add(Vertical3);

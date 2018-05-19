@@ -11,12 +11,19 @@ namespace TicTacToeGeneral
 
         private int[] myCurrentArrayNumbers;
 
+        public int[] MyCurrentArrayNumbers { get => myCurrentArrayNumbers; set => myCurrentArrayNumbers = value; }
 
-        public bool Won(int[] VetorAtualDoPlayer, VictoryConditionEnum VCE)
+
+        public Player()
+        {
+            myCurrentArrayNumbers = new int[8];
+        }
+
+        public bool Won(VictoryConditionEnum VCE)
         {
             int ConfirmaVitoria = 0;
 
-            if (VetorAtualDoPlayer.Count() < 3)     //Não é possível vencer sem fazer ao mínimo 3 marcações
+            if (MyCurrentArrayNumbers.Count() < 3)     //Não é possível vencer sem fazer ao mínimo 3 marcações
             {
                 return false;
             }
@@ -25,20 +32,20 @@ namespace TicTacToeGeneral
                 foreach (int[] VetorCondicaoDeVitoriaAtual in VCE.ConditionList)                   //Em cada vetor condição de vitória
                 {
 
+                    ConfirmaVitoria = 0;
+
                     foreach (int NumeroDoVetorDeVitoria in VetorCondicaoDeVitoriaAtual)            //Em cada numero do vetor de condicao de vitoria       
                     {
 
-                        ConfirmaVitoria = 0;
-
-                        foreach (int NumeroDoVetorDoPlayer in VetorAtualDoPlayer)                  //Em cada número no meu vetor atual
+                        foreach (int NumeroDoVetorDoPlayer in MyCurrentArrayNumbers)                  //Em cada número no meu vetor atual
                         {
                             if (NumeroDoVetorDoPlayer == NumeroDoVetorDeVitoria)
                             {
                                 ConfirmaVitoria++;
-                            } 
+                            }
                         }
 
-                        if(ConfirmaVitoria == 3)
+                        if (ConfirmaVitoria == 3)
                             return true;
                     }
                 }
@@ -46,6 +53,5 @@ namespace TicTacToeGeneral
 
             return false;
         }
-
     }
 }
