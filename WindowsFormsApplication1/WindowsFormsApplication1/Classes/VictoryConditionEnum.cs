@@ -22,18 +22,19 @@ namespace TicTacToeGeneral
 
         public VictoryConditionEnum()
         {
-            ConditionList = new List<int[]>();
+            ConditionList = new List<int[]>
+            {
+                Vertical1,
+                Vertical2,
+                Vertical3,
 
-            ConditionList.Add(Vertical1);
-            ConditionList.Add(Vertical2);
-            ConditionList.Add(Vertical3);
+                Horizontal1,
+                Horizontal2,
+                Horizontal3,
 
-            ConditionList.Add(Horizontal1);
-            ConditionList.Add(Horizontal2);
-            ConditionList.Add(Horizontal3);
-
-            ConditionList.Add(DiagonalPrincipal);
-            ConditionList.Add(DiagonalSecundaria);
+                DiagonalPrincipal,
+                DiagonalSecundaria
+            };
         }
     }
 }

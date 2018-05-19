@@ -1,6 +1,6 @@
 ﻿namespace TicTacToeGeneral
 {
-    partial class Form1
+    public partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -50,6 +50,7 @@
             this.btnA1.Size = new System.Drawing.Size(32, 23);
             this.btnA1.TabIndex = 0;
             this.btnA1.UseVisualStyleBackColor = true;
+            this.btnA1.Click += new System.EventHandler(this.btnA1_Click);
             // 
             // btnA2
             // 
@@ -58,6 +59,7 @@
             this.btnA2.Size = new System.Drawing.Size(31, 23);
             this.btnA2.TabIndex = 1;
             this.btnA2.UseVisualStyleBackColor = true;
+            this.btnA2.Click += new System.EventHandler(this.btnA2_Click);
             // 
             // btnA3
             // 
@@ -66,6 +68,7 @@
             this.btnA3.Size = new System.Drawing.Size(36, 23);
             this.btnA3.TabIndex = 2;
             this.btnA3.UseVisualStyleBackColor = true;
+            this.btnA3.Click += new System.EventHandler(this.btnA3_Click);
             // 
             // btnB3
             // 
@@ -74,6 +77,7 @@
             this.btnB3.Size = new System.Drawing.Size(36, 23);
             this.btnB3.TabIndex = 5;
             this.btnB3.UseVisualStyleBackColor = true;
+            this.btnB3.Click += new System.EventHandler(this.btnB3_Click);
             // 
             // btnB2
             // 
@@ -82,6 +86,7 @@
             this.btnB2.Size = new System.Drawing.Size(31, 23);
             this.btnB2.TabIndex = 4;
             this.btnB2.UseVisualStyleBackColor = true;
+            this.btnB2.Click += new System.EventHandler(this.btnB2_Click);
             // 
             // btnB1
             // 
@@ -90,6 +95,7 @@
             this.btnB1.Size = new System.Drawing.Size(32, 23);
             this.btnB1.TabIndex = 3;
             this.btnB1.UseVisualStyleBackColor = true;
+            this.btnB1.Click += new System.EventHandler(this.btnB1_Click);
             // 
             // btnC3
             // 
@@ -98,6 +104,7 @@
             this.btnC3.Size = new System.Drawing.Size(36, 23);
             this.btnC3.TabIndex = 8;
             this.btnC3.UseVisualStyleBackColor = true;
+            this.btnC3.Click += new System.EventHandler(this.btnC3_Click);
             // 
             // btnC2
             // 
@@ -106,6 +113,7 @@
             this.btnC2.Size = new System.Drawing.Size(31, 23);
             this.btnC2.TabIndex = 7;
             this.btnC2.UseVisualStyleBackColor = true;
+            this.btnC2.Click += new System.EventHandler(this.btnC2_Click);
             // 
             // btnC1
             // 
@@ -114,6 +122,7 @@
             this.btnC1.Size = new System.Drawing.Size(32, 23);
             this.btnC1.TabIndex = 6;
             this.btnC1.UseVisualStyleBackColor = true;
+            this.btnC1.Click += new System.EventHandler(this.btnC1_Click);
             // 
             // btnRestart
             // 
