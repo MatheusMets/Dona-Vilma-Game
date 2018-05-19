@@ -45,9 +45,9 @@
             // 
             // btnA1
             // 
-            this.btnA1.Location = new System.Drawing.Point(43, 68);
+            this.btnA1.Location = new System.Drawing.Point(95, 68);
             this.btnA1.Name = "btnA1";
-            this.btnA1.Size = new System.Drawing.Size(75, 23);
+            this.btnA1.Size = new System.Drawing.Size(32, 23);
             this.btnA1.TabIndex = 0;
             this.btnA1.UseVisualStyleBackColor = true;
             // 
@@ -55,63 +55,63 @@
             // 
             this.btnA2.Location = new System.Drawing.Point(170, 68);
             this.btnA2.Name = "btnA2";
-            this.btnA2.Size = new System.Drawing.Size(75, 23);
+            this.btnA2.Size = new System.Drawing.Size(31, 23);
             this.btnA2.TabIndex = 1;
             this.btnA2.UseVisualStyleBackColor = true;
             // 
             // btnA3
             // 
-            this.btnA3.Location = new System.Drawing.Point(298, 68);
+            this.btnA3.Location = new System.Drawing.Point(247, 68);
             this.btnA3.Name = "btnA3";
-            this.btnA3.Size = new System.Drawing.Size(75, 23);
+            this.btnA3.Size = new System.Drawing.Size(36, 23);
             this.btnA3.TabIndex = 2;
             this.btnA3.UseVisualStyleBackColor = true;
             // 
             // btnB3
             // 
-            this.btnB3.Location = new System.Drawing.Point(298, 120);
+            this.btnB3.Location = new System.Drawing.Point(247, 109);
             this.btnB3.Name = "btnB3";
-            this.btnB3.Size = new System.Drawing.Size(75, 23);
+            this.btnB3.Size = new System.Drawing.Size(36, 23);
             this.btnB3.TabIndex = 5;
             this.btnB3.UseVisualStyleBackColor = true;
             // 
             // btnB2
             // 
-            this.btnB2.Location = new System.Drawing.Point(170, 120);
+            this.btnB2.Location = new System.Drawing.Point(170, 109);
             this.btnB2.Name = "btnB2";
-            this.btnB2.Size = new System.Drawing.Size(75, 23);
+            this.btnB2.Size = new System.Drawing.Size(31, 23);
             this.btnB2.TabIndex = 4;
             this.btnB2.UseVisualStyleBackColor = true;
             // 
             // btnB1
             // 
-            this.btnB1.Location = new System.Drawing.Point(43, 120);
+            this.btnB1.Location = new System.Drawing.Point(95, 109);
             this.btnB1.Name = "btnB1";
-            this.btnB1.Size = new System.Drawing.Size(75, 23);
+            this.btnB1.Size = new System.Drawing.Size(32, 23);
             this.btnB1.TabIndex = 3;
             this.btnB1.UseVisualStyleBackColor = true;
             // 
             // btnC3
             // 
-            this.btnC3.Location = new System.Drawing.Point(298, 176);
+            this.btnC3.Location = new System.Drawing.Point(247, 158);
             this.btnC3.Name = "btnC3";
-            this.btnC3.Size = new System.Drawing.Size(75, 23);
+            this.btnC3.Size = new System.Drawing.Size(36, 23);
             this.btnC3.TabIndex = 8;
             this.btnC3.UseVisualStyleBackColor = true;
             // 
             // btnC2
             // 
-            this.btnC2.Location = new System.Drawing.Point(170, 176);
+            this.btnC2.Location = new System.Drawing.Point(170, 158);
             this.btnC2.Name = "btnC2";
-            this.btnC2.Size = new System.Drawing.Size(75, 23);
+            this.btnC2.Size = new System.Drawing.Size(31, 23);
             this.btnC2.TabIndex = 7;
             this.btnC2.UseVisualStyleBackColor = true;
             // 
             // btnC1
             // 
-            this.btnC1.Location = new System.Drawing.Point(43, 176);
+            this.btnC1.Location = new System.Drawing.Point(95, 158);
             this.btnC1.Name = "btnC1";
-            this.btnC1.Size = new System.Drawing.Size(75, 23);
+            this.btnC1.Size = new System.Drawing.Size(32, 23);
             this.btnC1.TabIndex = 6;
             this.btnC1.UseVisualStyleBackColor = true;
             // 

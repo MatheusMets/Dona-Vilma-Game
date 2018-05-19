@@ -9,13 +9,14 @@ namespace TicTacToeGeneral
     public class Player
     {
 
-        private int[] myCurrentNumber;
+        private int[] myCurrentArrayNumbers;
+
 
         public bool Won(int[] VetorAtualDoPlayer, VictoryConditionEnum VCE)
         {
-            bool ConfirmaVitoria = true;
+            int ConfirmaVitoria = 0;
 
-            if (VetorAtualDoPlayer.Count() == 0)
+            if (VetorAtualDoPlayer.Count() < 3)     //Não é possível vencer sem fazer ao mínimo 3 marcações
             {
                 return false;
             }
@@ -26,25 +27,20 @@ namespace TicTacToeGeneral
 
                     foreach (int NumeroDoVetorDeVitoria in VetorCondicaoDeVitoriaAtual)            //Em cada numero do vetor de condicao de vitoria       
                     {
+
+                        ConfirmaVitoria = 0;
+
                         foreach (int NumeroDoVetorDoPlayer in VetorAtualDoPlayer)                  //Em cada número no meu vetor atual
                         {
-                            if (NumeroDoVetorDoPlayer == )
+                            if (NumeroDoVetorDoPlayer == NumeroDoVetorDeVitoria)
                             {
-
-                            } else
-
-                            if (NumeroDoVetorDoPlayer != VetorCondicaoDeVitoriaAtual[0] || 
-                                NumeroDoVetorDoPlayer != VetorCondicaoDeVitoriaAtual[1] || 
-                                NumeroDoVetorDoPlayer != VetorCondicaoDeVitoriaAtual[2])     //Se não tiver nenhum número que casa...
-                                break;                                                       //Para de verificar nesse vetor
-                            else
-                            {
-
-                            }
+                                ConfirmaVitoria++;
+                            } 
                         }
-                        return true;
+
+                        if(ConfirmaVitoria == 3)
+                            return true;
                     }
-                        
                 }
             }
 
