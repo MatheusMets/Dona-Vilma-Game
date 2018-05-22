@@ -10,13 +10,23 @@ namespace TicTacToeGeneral
     {
 
         private int[] myCurrentArrayNumbers;
+        private int IndiceDaMinhaJunisse;
 
-        public int[] MyCurrentArrayNumbers { get => myCurrentArrayNumbers; set => myCurrentArrayNumbers = value; }
+        public int[] MyCurrentArrayNumbers {
+            get { return  myCurrentArrayNumbers; }
+        }
+
+        public void AdicionaNoVetor(int i)
+        {
+            myCurrentArrayNumbers[IndiceDaMinhaJunisse] = i;
+            IndiceDaMinhaJunisse++;
+        }
 
 
         public Player()
         {
             myCurrentArrayNumbers = new int[8];
+            IndiceDaMinhaJunisse = 0;
         }
 
         public bool Won(VictoryConditionEnum VCE)
