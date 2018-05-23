@@ -14,6 +14,7 @@ namespace TicTacToeGeneral
 
         public int[] MyCurrentArrayNumbers {
             get { return  myCurrentArrayNumbers; }
+            set { myCurrentArrayNumbers = value; }
         }
 
         public void AdicionaNoVetor(int i)
@@ -63,5 +64,45 @@ namespace TicTacToeGeneral
 
             return false;
         }
+
+        public int AdversarioEstaVencendo(Player PlayerAdversario)    //Retorna o int que ele deve marcar 
+        {
+            VictoryConditionEnum VCE = new VictoryConditionEnum();
+            int ConfirmaChanceVitoria = 0;
+            int[] VetorAuxiliar = new int[6];
+
+            if (PlayerAdversario.MyCurrentArrayNumbers.Count() < 2)
+            {
+                return 0;
+            }
+            else
+            {
+                foreach (int[] VetorCondicaoDeVitoriaAtual in VCE.ConditionList)                   //Em cada vetor condição de vitória
+                {
+                    VetorAuxiliar = VetorCondicaoDeVitoriaAtual;
+                    ConfirmaChanceVitoria = 0;
+
+                    foreach (int NumeroDoVetorDeVitoria in VetorCondicaoDeVitoriaAtual)
+                    {
+
+                        foreach (int NumeroDoVetorDoPlayerAdversario in PlayerAdversario.MyCurrentArrayNumbers)
+                        {
+                            if (NumeroDoVetorDoPlayerAdversario == NumeroDoVetorDeVitoria)
+                            {
+                                VetorAuxiliar = VetorAuxiliar.Where(val => val != NumeroDoVetorDeVitoria).ToArray();
+                                ConfirmaChanceVitoria++;
+                            }
+                        }
+
+                        if (ConfirmaChanceVitoria == 2)
+                            return VetorAuxiliar[0];
+
+                    }
+                }
+            }
+
+            return 0;
+        }
+
     }
 }

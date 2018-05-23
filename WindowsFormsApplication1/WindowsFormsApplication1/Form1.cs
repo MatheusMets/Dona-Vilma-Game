@@ -20,8 +20,8 @@ namespace TicTacToeGeneral
         Button BotaoQueSeraClicado = null;
         bool isIATurn = false;
 
-        public readonly int[] Teste1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-
+        public readonly int[] Teste1 = { 5, 6, 7, 8, 9 };
+        public readonly int[] Teste2 = { 1, 2, 3 };
 
         public Form1()
         { 
@@ -58,6 +58,15 @@ namespace TicTacToeGeneral
             richLog.AppendText("\nVocê é o X. A IA é a O!");
             richLog.AppendText("\nO jogo já se iniciou. É a sua vez!");
             richLog.AppendText("\nEsperando o usuário jogar...");
+
+
+            Player player = new Player();
+            player.MyCurrentArrayNumbers = Teste1;
+
+            Player ia = new Player();
+            player.MyCurrentArrayNumbers = Teste2;
+
+
 
             /*      ISSO FOI SÓ PRA TESTAR SE O MÉTODO VERIFICADOR DE VITÓRIA TÁ CERTO
             IA.MyCurrentArrayNumbers = Teste1;
