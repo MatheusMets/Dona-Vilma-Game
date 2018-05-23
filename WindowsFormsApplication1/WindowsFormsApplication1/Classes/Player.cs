@@ -65,9 +65,8 @@ namespace TicTacToeGeneral
             return false;
         }
 
-        public int AdversarioEstaVencendo(Player PlayerAdversario)    //Retorna o int que ele deve marcar 
+        public int RetornaNumeroParaImpedirVitoriaDoAdversario(Player PlayerAdversario, VictoryConditionEnum VCE)    //Retorna o int que ele deve marcar para evitar a vitoria do adversário (PEGA SEMPRE O PRIMEIRO CASO)
         {
-            VictoryConditionEnum VCE = new VictoryConditionEnum();
             int ConfirmaChanceVitoria = 0;
             int[] VetorAuxiliar = new int[6];
 
@@ -95,6 +94,44 @@ namespace TicTacToeGeneral
                         }
 
                         if (ConfirmaChanceVitoria == 2)
+                            return VetorAuxiliar[0];
+
+                    }
+                }
+            }
+
+            return 0;
+        }
+
+        public int RetornaNumeroParaVencer(VictoryConditionEnum VCE)
+        {
+            int ConfirmaVitoria;
+            int[] VetorAuxiliar = new int[6];
+
+            if (MyCurrentArrayNumbers.Count() < 2)
+            {
+                return 0;
+            }
+            else
+            {
+                foreach (int[] VetorCondicaoDeVitoriaAtual in VCE.ConditionList)                   //Em cada vetor condição de vitória
+                {
+                    VetorAuxiliar = VetorCondicaoDeVitoriaAtual;
+                    ConfirmaVitoria = 0;
+
+                    foreach (int NumeroDoVetorDeVitoria in VetorCondicaoDeVitoriaAtual)
+                    {
+
+                        foreach (int NumeroAtualDoVetorDoPlayer in MyCurrentArrayNumbers)
+                        {
+                            if (NumeroAtualDoVetorDoPlayer == NumeroDoVetorDeVitoria)
+                            {
+                                VetorAuxiliar = VetorAuxiliar.Where(val => val != NumeroDoVetorDeVitoria).ToArray();
+                                ConfirmaVitoria++;
+                            }
+                        }
+
+                        if (ConfirmaVitoria == 2)
                             return VetorAuxiliar[0];
 
                     }

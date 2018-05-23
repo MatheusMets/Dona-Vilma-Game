@@ -20,8 +20,8 @@ namespace TicTacToeGeneral
         Button BotaoQueSeraClicado = null;
         bool isIATurn = false;
 
-        public readonly int[] Teste1 = { 5, 6, 7, 8, 9 };
-        public readonly int[] Teste2 = { 1, 2, 3 };
+        public readonly int[] VetorJogador = {2,8};
+        public readonly int[] VetorIA = {1, 2};
 
         public Form1()
         { 
@@ -60,16 +60,34 @@ namespace TicTacToeGeneral
             richLog.AppendText("\nEsperando o usuário jogar...");
 
 
-            Player player = new Player();
-            player.MyCurrentArrayNumbers = Teste1;
+           /* //TESTES DO MÉTODO RetornaNumeroParaVencer()
+            Player player = new Player
+            {
+                MyCurrentArrayNumbers = VetorJogador
+            };
 
-            Player ia = new Player();
-            player.MyCurrentArrayNumbers = Teste2;
+            int A = player.RetornaNumeroParaVencer(VCE);
+            MessageBox.Show("" + A); */
 
+
+            /*          TESTES NO MÉTODO RetornaNumeroParaImpedirVitoriaDoAdversario()
+            Player player = new Player
+            {
+                MyCurrentArrayNumbers = VetorJogador
+            };
+
+            Player ia = new Player
+            {
+                MyCurrentArrayNumbers = VetorIA
+            };
+
+            int a = ia.RetornaNumeroParaImpedirVitoriaDoAdversario(player, VCE);
+
+            MessageBox.Show("" + a); */
 
 
             /*      ISSO FOI SÓ PRA TESTAR SE O MÉTODO VERIFICADOR DE VITÓRIA TÁ CERTO
-            IA.MyCurrentArrayNumbers = Teste1;
+            IA.MyCurrentArrayNumbers = VetorJogador;
             bool v = IA.Won(VCE);
 
             if (v)
@@ -314,14 +332,14 @@ namespace TicTacToeGeneral
             {
                 richLog.AppendText("\nIA venceu!");
                 MessageBox.Show("\nIA venceu!");
-                //Reseta os valores
+                ResetaTudo();
                 return null;
             }
             else if(player.Won(VCE))
             {
                 richLog.AppendText("\nPlayer venceu!");
                 MessageBox.Show("\nPlayer venceu!");
-                //Reseta os valores
+                ResetaTudo();
                 return null;
             }
 
@@ -345,7 +363,35 @@ namespace TicTacToeGeneral
         {
             richLog.AppendText("\nDeu velha, seu verme! ");
             MessageBox.Show("\nDeu velha, seu verme! ");
-            //Reset
+
+            ResetaTudo();
+        }
+
+        private void ResetaTudo()
+        {
+            //Limpando e preenchendo a lista de botoes novamente
+            screenButtons.Clear();
+            screenButtons = new List<Button>() {
+                btnA1,
+                btnA2,
+                btnA3,
+                btnB1,
+                btnB2,
+                btnB3,
+                btnC1,
+                btnC2,
+                btnC3
+            };
+
+            foreach(Button b in screenButtons)
+                b.Text = "";
+
+            //Zerando os vetores dos jogadores
+            IA = new Player();
+            player = new Player();
+            isIATurn = false;
+            BotaoQueSeraClicado = null;
+            richLog.AppendText("");
         }
     }
 }
