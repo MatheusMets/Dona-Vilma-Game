@@ -51,6 +51,11 @@ namespace TicTacToeGeneral
 
         }
 
+
+
+        //ERRO ENCONTRADO: QUANDO O JOGADOR GANHA NO ULTIMO CLIQUE, DÁ VELHA
+
+
         private void btnRestart_Click(object sender, EventArgs e)
         {
             richLog.Clear();
