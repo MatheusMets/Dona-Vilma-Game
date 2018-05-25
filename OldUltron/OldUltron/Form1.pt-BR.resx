@@ -117,4 +117,72 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="placar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="placar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="placar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 31</value>
+  </data>
+  <data name="placar.Text" xml:space="preserve">
+    <value>Ganhou: 0 Perdeu: 0 Empatou: 0</value>
+  </data>
+  <data name="A2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="A2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 163</value>
+  </data>
+  <data name="A3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="A3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 163</value>
+  </data>
+  <data name="B3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="B3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 163</value>
+  </data>
+  <data name="B2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="B2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 163</value>
+  </data>
+  <data name="B1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="B1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 163</value>
+  </data>
+  <data name="C3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="C3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 166</value>
+  </data>
+  <data name="C2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="C2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 166</value>
+  </data>
+  <data name="C1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="C1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 166</value>
+  </data>
+  <data name="A1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30.25pt</value>
+  </data>
+  <data name="A1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 163</value>
+  </data>
 </root>

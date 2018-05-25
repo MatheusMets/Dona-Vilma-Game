@@ -1,0 +1,15 @@
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\bin\Debug\OldUltron.exe.config
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\bin\Debug\OldUltron.exe
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\bin\Debug\OldUltron.pdb
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\bin\Debug\af-ZA\OldUltron.resources.dll
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.Form1.resources
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.Properties.Resources.resources
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.Form1.af-ZA.resources
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.csproj.GenerateResource.Cache
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\af-ZA\OldUltron.resources.dll
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.exe
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.pdb
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\bin\Debug\pt-BR\OldUltron.resources.dll
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.Form1.pt-BR.resources
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\pt-BR\OldUltron.resources.dll
+c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.csprojResolveAssemblyReference.cache
