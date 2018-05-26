@@ -13,3 +13,19 @@ c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\bin\Debu
 c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.Form1.pt-BR.resources
 c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\pt-BR\OldUltron.resources.dll
 c:\users\greg\documents\visual studio 2015\Projects\OldUltron\OldUltron\obj\Debug\OldUltron.csprojResolveAssemblyReference.cache
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.csprojResolveAssemblyReference.cache
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.Form1.resources
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.Form1.af-ZA.resources
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.Form1.pt-BR.resources
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.csproj.GenerateResource.Cache
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\bin\Debug\OldUltron.exe.config
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\bin\Debug\OldUltron.exe
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\bin\Debug\OldUltron.pdb
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\bin\Debug\af-ZA\OldUltron.resources.dll
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\bin\Debug\pt-BR\OldUltron.resources.dll
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.Properties.Resources.resources
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.csproj.CoreCompileInputs.cache
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\af-ZA\OldUltron.resources.dll
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\pt-BR\OldUltron.resources.dll
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.exe
+C:\Users\Rizzon\Documents\GitHub\Dona-Vilma-Game\OldUltron\OldUltron\obj\Debug\OldUltron.pdb

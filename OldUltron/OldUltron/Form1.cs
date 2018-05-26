@@ -1,11 +1,7 @@
 ﻿using OldUltron.JogoDaVelha;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.IO;
+using System.Media;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -20,6 +16,7 @@ namespace OldUltron
         public Form1()
         {
             InitializeComponent();
+            PlaySound(Properties.Resources.Introducao1);
             init();
         }
 
@@ -35,7 +32,23 @@ namespace OldUltron
             tabuleiro.setJogador(Jogador.Min); // Minha vez de Jogar
                                                // tabela de pontos com jogos ganhados, perdidos e empatados
             placar.Text = "Ganhou: " + ganhou + " Perdeu: " + perdeu + " Empatou: " + empate;
-            MessageBox.Show("Eu sou Old Ultron, e esse jogo decidira o destino do mundo! HAHAHAHAHAHA");    
+            //MessageBox.Show("Eu sou Old Ultron, e esse jogo decidira o destino do mundo! HAHAHAHAHAHA");    
+        }
+
+        private async void PlaySound(Stream sound)
+        {
+            using (var player = new SoundPlayer(sound))
+            {
+                await Task.Run(() =>
+                {
+                    picVoice.Image = Properties.Resources.audio_gif2;
+                    player.Load();
+                    player.PlaySync();
+                });
+
+                picVoice.Image = Properties.Resources.VoiceNull;
+                //MessageBox.Show("Finished. Now you can run your code here");
+            }
         }
 
         //função que passa as jogadas X e O para os botoes
@@ -66,36 +79,48 @@ namespace OldUltron
                 {//verifica se ele pode fazer essa jogada
                     Celula.Text = "X";//joga X no Button escolhido
                     //repassa a jogada executada no design para o tabuleiro map
-                    tabuleiro.setX(auxLinha,auxColuna);
+                    tabuleiro.setX(auxLinha, auxColuna);
                     //Calculo o Minimax
                     tabuleiro.setJogador(Jogador.Max);//jogada da IA
                     tabuleiro = minimax.minimaxDecision(tabuleiro);//Tomar melhor decisão
-                                                           //Computador Joga
+                                                                   //Computador Joga
                     setTabuleiro(tabuleiro);//Passa as letras para o tabueliro
                     tabuleiro.setJogador(Jogador.Min);
                     if (tabuleiro.isFinal())
                     {
-                        MessageBox.Show("Você ganhou? " + tabuleiro.perdeu() + "\nVocê perdeu? " + tabuleiro.ganhou() + "\nDeu empate? " + tabuleiro.empate());
                         if (tabuleiro.ganhou())
+                        {
+                            PlaySound(Properties.Resources.VocePerdeuOtario);
                             perdeu++;
+                        }
                         if (tabuleiro.perdeu())
                             ganhou++;
                         if (tabuleiro.empate())
+                        {
+                            PlaySound(Properties.Resources.TenteNovamente);
                             empate++;
+                        }
+
+                        MessageBox.Show("Você ganhou? " + tabuleiro.perdeu() + "\nVocê perdeu? " + tabuleiro.ganhou() + "\nDeu empate? " + tabuleiro.empate());
                         this.init();
                     }
                 }
-                else {
+                else
+                {
                     if (Celula.Text.Equals("X"))
                     {
-                        MessageBox.Show("Mortal, Você já jogou ai, preste atenção!");
+                        PlaySound(Properties.Resources.MortalJogandoErrado);
+                        //MessageBox.Show("Mortal, Você já jogou ai, preste atenção!");
                     }
-                    else {
-                        MessageBox.Show("Inseto, eu Ultron já joguei ai, preste mais atenção atenção!");
+                    else
+                    {
+                        PlaySound(Properties.Resources.InsetoUltronJaJogou);
+                        //MessageBox.Show("Inseto, eu Ultron já joguei ai, preste mais atenção!");
                     }
                 }
             }
-            else {
+            else
+            {
                 MessageBox.Show("Nao é sua vez ainda espere!");
             }
         }
@@ -143,6 +168,11 @@ namespace OldUltron
         private void button2_Click(object sender, EventArgs e)
         {
             init();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void C3_Click(object sender, EventArgs e)
