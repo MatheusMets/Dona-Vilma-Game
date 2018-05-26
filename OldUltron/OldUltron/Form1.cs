@@ -62,7 +62,7 @@ namespace OldUltron
                 //Eu Joguei
                 //Button celula = (Button)me.getSource();
                 //System.out.println(celula);
-                if (Celula.Text == null || "".Equals(Celula.Text))
+                if (string.IsNullOrEmpty(Celula.Text))
                 {//verifica se ele pode fazer essa jogada
                     Celula.Text = "X";//joga X no Button escolhido
                     //repassa a jogada executada no design para o tabuleiro map
